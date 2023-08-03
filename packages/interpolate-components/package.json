@@ -19,7 +19,7 @@
 	"bugs": "https://github.com/Automattic/wp-calypso/issues",
 	"homepage": "https://github.com/Automattic/wp-calypso/tree/HEAD/packages/interpolate-components#readme",
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"react-dom": "^18.2.0"
 	},
 	"peerDependencies": {

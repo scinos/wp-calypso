@@ -25,7 +25,7 @@
 		"test": "rm -rf test/output && jest"
 	},
 	"dependencies": {
-		"@automattic/babel-plugin-i18n-calypso": "workspace:^",
+		"@automattic/babel-plugin-i18n-calypso": "workspace:*",
 		"@babel/cli": "^7.17.6",
 		"@babel/core": "^7.17.5",
 		"@babel/plugin-proposal-class-properties": "^7.16.7",
@@ -38,9 +38,9 @@
 		"lodash.mergewith": "^4.6.2"
 	},
 	"devDependencies": {
-		"@automattic/calypso-eslint-overrides": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
-		"i18n-calypso": "workspace:^",
+		"@automattic/calypso-eslint-overrides": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
+		"i18n-calypso": "workspace:*",
 		"jest": "^29.6.1",
 		"react": "^18.2.0",
 		"rimraf": "^3.0.2"

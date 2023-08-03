@@ -17,7 +17,7 @@
 	"bugs": "https://github.com/Automattic/wp-calypso/issues",
 	"homepage": "https://github.com/Automattic/wp-calypso/tree/HEAD/packages/i18n-calypso#readme",
 	"dependencies": {
-		"@automattic/interpolate-components": "workspace:^",
+		"@automattic/interpolate-components": "workspace:*",
 		"@babel/runtime": "^7.17.2",
 		"@tannin/sprintf": "^1.1.0",
 		"@wordpress/compose": "^6.0.0",
@@ -30,7 +30,7 @@
 		"use-subscription": "1.6.0"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-test-renderer": "^18.2.0"

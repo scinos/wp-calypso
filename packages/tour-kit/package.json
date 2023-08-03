@@ -30,9 +30,9 @@
 		"storybook": "sb dev"
 	},
 	"dependencies": {
-		"@automattic/components": "workspace:^",
-		"@automattic/viewport": "workspace:^",
-		"@automattic/viewport-react": "workspace:^",
+		"@automattic/components": "workspace:*",
+		"@automattic/viewport": "workspace:*",
+		"@automattic/viewport-react": "workspace:*",
 		"@popperjs/core": "^2.10.2",
 		"@wordpress/base-styles": "^4.14.0",
 		"@wordpress/components": "^23.0.0",
@@ -47,9 +47,9 @@
 		"react-popper": "^2.3.0"
 	},
 	"devDependencies": {
-		"@automattic/calypso-color-schemes": "workspace:^",
-		"@automattic/calypso-storybook": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-color-schemes": "workspace:*",
+		"@automattic/calypso-storybook": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"@storybook/cli": "^7.0.18",
 		"@storybook/react": "^7.0.18",
 		"typescript": "^4.7.4"

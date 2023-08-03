@@ -23,7 +23,7 @@
 		"clean": "tsc --build ./tsconfig.json ./tsconfig-cjs.json --clean && rm -rf dist",
 		"build": "tsc --build ./tsconfig.json ./tsconfig-cjs.json",
 		"prepack": "yarn run clean && yarn run build",
-		"prepare": "yarn run build",
+		"prepare": "bun run build",
 		"download": "node bin/download.js",
 		"test": "yarn jest"
 	},
@@ -31,9 +31,9 @@
 		"tslib": "^2.3.0"
 	},
 	"devDependencies": {
-		"@automattic/calypso-build": "workspace:^",
-		"@automattic/calypso-eslint-overrides": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-build": "workspace:*",
+		"@automattic/calypso-eslint-overrides": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"jest": "^29.6.1",
 		"postcss": "^8.4.5",
 		"react": "^18.2.0",

@@ -18,6 +18,6 @@
 		"mocha-junit-reporter": "^2.0.2"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^"
+		"@automattic/calypso-typescript-config": "workspace:*"
 	}
 }

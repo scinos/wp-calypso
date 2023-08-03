@@ -23,10 +23,10 @@
 	},
 	"dependencies": {
 		"tslib": "^2.3.0",
-		"wpcom-proxy-request": "workspace:^"
+		"wpcom-proxy-request": "workspace:*"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"typescript": "^4.7.4"
 	}
 }

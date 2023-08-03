@@ -38,17 +38,17 @@
 	"bugs": "https://github.com/Automattic/wp-calypso/issues",
 	"homepage": "https://github.com/Automattic/wp-calypso/tree/HEAD/packages/mini-cart#readme",
 	"dependencies": {
-		"@automattic/composite-checkout": "workspace:^",
-		"@automattic/format-currency": "workspace:^",
-		"@automattic/shopping-cart": "workspace:^",
-		"@automattic/wpcom-checkout": "workspace:^",
+		"@automattic/composite-checkout": "workspace:*",
+		"@automattic/format-currency": "workspace:*",
+		"@automattic/shopping-cart": "workspace:*",
+		"@automattic/wpcom-checkout": "workspace:*",
 		"@emotion/styled": "^11.3.0",
 		"@wordpress/i18n": "^4.23.0",
 		"@wordpress/react-i18n": "^3.21.0",
 		"debug": "^4.3.3"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^14.0.0",
 		"react": "^18.2.0",

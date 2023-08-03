@@ -29,19 +29,19 @@
 		"watch": "tsc --build ./tsconfig.json --watch"
 	},
 	"dependencies": {
-		"@automattic/design-picker": "workspace:^",
-		"@automattic/i18n-utils": "workspace:^",
-		"@automattic/onboarding": "workspace:^",
+		"@automattic/design-picker": "workspace:*",
+		"@automattic/i18n-utils": "workspace:*",
+		"@automattic/onboarding": "workspace:*",
 		"@tanstack/react-query": "^4.29.1",
 		"classnames": "^2.3.1",
 		"swiper": "^4.5.1",
 		"tslib": "^2.3.0",
 		"utility-types": "^3.10.0",
-		"wpcom-proxy-request": "workspace:^"
+		"wpcom-proxy-request": "workspace:*"
 	},
 	"devDependencies": {
-		"@automattic/calypso-build": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-build": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"postcss": "^8.4.5",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",

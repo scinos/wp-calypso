@@ -29,10 +29,10 @@
 		"watch": "tsc --build ./tsconfig.json --watch"
 	},
 	"dependencies": {
-		"@automattic/components": "workspace:^",
-		"@automattic/onboarding": "workspace:^",
-		"@automattic/viewport": "workspace:^",
-		"@automattic/viewport-react": "workspace:^",
+		"@automattic/components": "workspace:*",
+		"@automattic/onboarding": "workspace:*",
+		"@automattic/viewport": "workspace:*",
+		"@automattic/viewport-react": "workspace:*",
 		"@popperjs/core": "^2.10.2",
 		"@wordpress/base-styles": "^4.14.0",
 		"@wordpress/components": "^23.0.0",
@@ -47,8 +47,8 @@
 		"react-popper": "^2.3.0"
 	},
 	"devDependencies": {
-		"@automattic/calypso-color-schemes": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-color-schemes": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"typescript": "^4.5.5"
 	},
 	"peerDependencies": {

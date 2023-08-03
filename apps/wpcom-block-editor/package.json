@@ -21,8 +21,8 @@
 		"build": "NODE_ENV=production yarn dev"
 	},
 	"dependencies": {
-		"@automattic/calypso-url": "workspace:^",
-		"@automattic/typography": "workspace:^",
+		"@automattic/calypso-url": "workspace:*",
+		"@automattic/typography": "workspace:*",
 		"@babel/runtime": "^7.17.2",
 		"@wordpress/api-fetch": "^6.20.0",
 		"@wordpress/base-styles": "^4.14.0",
@@ -51,9 +51,9 @@
 		"tinymce": "^5.0.0"
 	},
 	"devDependencies": {
-		"@automattic/calypso-apps-builder": "workspace:^",
-		"@automattic/calypso-build": "workspace:^",
-		"@automattic/calypso-eslint-overrides": "workspace:^",
+		"@automattic/calypso-apps-builder": "workspace:*",
+		"@automattic/calypso-build": "workspace:*",
+		"@automattic/calypso-eslint-overrides": "workspace:*",
 		"@wordpress/dependency-extraction-webpack-plugin": "^4.6.0",
 		"npm-run-all": "^4.1.5",
 		"postcss": "^8.4.5",

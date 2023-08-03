@@ -27,8 +27,8 @@
 	],
 	"types": "dist/types",
 	"dependencies": {
-		"@automattic/languages": "workspace:^",
-		"@automattic/search": "workspace:^",
+		"@automattic/languages": "workspace:*",
+		"@automattic/search": "workspace:*",
 		"@babel/runtime": "^7.17.2",
 		"@wordpress/base-styles": "^4.14.0",
 		"@wordpress/components": "^23.0.0",
@@ -47,7 +47,7 @@
 		"prepack": "yarn run clean && yarn run build"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"typescript": "^4.7.4"
 	}
 }

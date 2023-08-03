@@ -26,8 +26,8 @@
 		"prepare": "node bin/prepare-sass-assets.js && node bin/build-css.js"
 	},
 	"devDependencies": {
-		"@automattic/calypso-eslint-overrides": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-eslint-overrides": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"@automattic/color-studio": "2.5.0",
 		"postcss": "^8.4.5",
 		"postcss-custom-properties": "^11.0.0",

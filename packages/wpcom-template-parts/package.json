@@ -30,14 +30,14 @@
 		"watch": "tsc --build ./tsconfig.json --watch"
 	},
 	"dependencies": {
-		"@automattic/components": "workspace:^",
-		"@automattic/i18n-utils": "workspace:^",
+		"@automattic/components": "workspace:*",
+		"@automattic/i18n-utils": "workspace:*",
 		"@wordpress/url": "^3.24.0",
-		"i18n-calypso": "workspace:^",
+		"i18n-calypso": "workspace:*",
 		"social-logos": "^2.5.2"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"@types/social-logos": "^2.3.1",
 		"typescript": "^4.7.4"
 	},
