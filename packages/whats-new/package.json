@@ -35,11 +35,11 @@
 		"prepack": "yarn run clean && yarn run build"
 	},
 	"dependencies": {
-		"@automattic/calypso-analytics": "workspace:^",
-		"@automattic/calypso-color-schemes": "workspace:^",
-		"@automattic/components": "workspace:^",
-		"@automattic/i18n-utils": "workspace:^",
-		"@automattic/typography": "workspace:^",
+		"@automattic/calypso-analytics": "workspace:*",
+		"@automattic/calypso-color-schemes": "workspace:*",
+		"@automattic/components": "workspace:*",
+		"@automattic/i18n-utils": "workspace:*",
+		"@automattic/typography": "workspace:*",
 		"@tanstack/react-query": "^4.29.1",
 		"@wordpress/components": "^23.0.0",
 		"@wordpress/element": "^5.0.0",
@@ -47,8 +47,8 @@
 		"@wordpress/keycodes": "^3.23.0",
 		"@wordpress/react-i18n": "^3.21.0",
 		"classnames": "^2.3.1",
-		"wpcom": "workspace:^",
-		"wpcom-proxy-request": "workspace:^"
+		"wpcom": "workspace:*",
+		"wpcom-proxy-request": "workspace:*"
 	},
 	"peerDependencies": {
 		"@wordpress/data": "^8.0.0",
@@ -57,6 +57,6 @@
 		"redux": "^4.1.2"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^"
+		"@automattic/calypso-typescript-config": "workspace:*"
 	}
 }

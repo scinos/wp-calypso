@@ -25,17 +25,17 @@
 		"debug:mobile": "PWDEBUG=1 DEBUG=pw:api yarn run test:mobile"
 	},
 	"devDependencies": {
-		"@automattic/calypso-eslint-overrides": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-eslint-overrides": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"@babel/core": "^7.16.0",
 		"webpack": "^5.63.0"
 	},
 	"dependencies": {
-		"@automattic/calypso-babel-config": "workspace:^",
-		"@automattic/calypso-build": "workspace:^",
-		"@automattic/calypso-e2e": "workspace:^",
-		"@automattic/jest-circus-allure-reporter": "workspace:^",
-		"@automattic/languages": "workspace:^",
+		"@automattic/calypso-babel-config": "workspace:*",
+		"@automattic/calypso-build": "workspace:*",
+		"@automattic/calypso-e2e": "workspace:*",
+		"@automattic/jest-circus-allure-reporter": "workspace:*",
+		"@automattic/languages": "workspace:*",
 		"@types/archiver": "^5.3.1",
 		"archiver": "^5.3.0",
 		"asana-phrase": "^0.0.8",

@@ -27,7 +27,7 @@
 	],
 	"types": "dist/types",
 	"dependencies": {
-		"@automattic/typography": "workspace:^",
+		"@automattic/typography": "workspace:*",
 		"@babel/runtime": "^7.17.2",
 		"@wordpress/base-styles": "^4.14.0",
 		"@wordpress/components": "^23.0.0",
@@ -45,9 +45,9 @@
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@automattic/calypso-color-schemes": "workspace:^",
-		"@automattic/calypso-storybook": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-color-schemes": "workspace:*",
+		"@automattic/calypso-storybook": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"@storybook/addon-actions": "^7.0.18",
 		"@storybook/cli": "^7.0.18",
 		"@storybook/react": "^7.0.18",

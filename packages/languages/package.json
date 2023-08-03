@@ -31,9 +31,9 @@
 		"tslib": "^2.3.0"
 	},
 	"devDependencies": {
-		"@automattic/calypso-build": "workspace:^",
-		"@automattic/calypso-eslint-overrides": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-build": "workspace:*",
+		"@automattic/calypso-eslint-overrides": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"jest": "^29.6.1",
 		"postcss": "^8.4.5",
 		"react": "^18.2.0",

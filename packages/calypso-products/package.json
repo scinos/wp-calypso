@@ -35,11 +35,11 @@
 	"bugs": "https://github.com/Automattic/wp-calypso/issues",
 	"homepage": "https://github.com/Automattic/wp-calypso/tree/HEAD/packages/calypso-products#readme",
 	"dependencies": {
-		"@automattic/calypso-config": "workspace:^",
-		"i18n-calypso": "workspace:^"
+		"@automattic/calypso-config": "workspace:*",
+		"i18n-calypso": "workspace:*"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"typescript": "^4.7.4"
 	},
 	"peerDependencies": {

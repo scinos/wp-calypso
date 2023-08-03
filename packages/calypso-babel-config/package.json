@@ -21,9 +21,9 @@
 	},
 	"bugs": "https://github.com/Automattic/wp-calypso/issues",
 	"dependencies": {
-		"@automattic/babel-plugin-i18n-calypso": "workspace:^",
-		"@automattic/babel-plugin-preserve-i18n": "workspace:^",
-		"@automattic/babel-plugin-transform-wpcalypso-async": "workspace:^",
+		"@automattic/babel-plugin-i18n-calypso": "workspace:*",
+		"@automattic/babel-plugin-preserve-i18n": "workspace:*",
+		"@automattic/babel-plugin-transform-wpcalypso-async": "workspace:*",
 		"@babel/cli": "^7.17.6",
 		"@babel/core": "^7.17.5",
 		"@babel/helpers": "^7.17.2",

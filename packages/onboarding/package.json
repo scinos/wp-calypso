@@ -29,8 +29,8 @@
 		"watch": "tsc --build ./tsconfig.json --watch"
 	},
 	"dependencies": {
-		"@automattic/components": "workspace:^",
-		"@automattic/data-stores": "workspace:^",
+		"@automattic/components": "workspace:*",
+		"@automattic/data-stores": "workspace:*",
 		"@wordpress/components": "^23.0.0",
 		"@wordpress/data": "^8.0.0",
 		"@wordpress/icons": "^9.14.0",
@@ -38,11 +38,11 @@
 		"classnames": "^2.3.1",
 		"react-router-dom": "^6.10.0",
 		"tslib": "^2.5.0",
-		"wpcom-proxy-request": "workspace:^"
+		"wpcom-proxy-request": "workspace:*"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^",
-		"@automattic/typography": "workspace:^",
+		"@automattic/calypso-typescript-config": "workspace:*",
+		"@automattic/typography": "workspace:*",
 		"@testing-library/react": "^14.0.0",
 		"@wordpress/base-styles": "^4.14.0",
 		"copyfiles": "^2.3.0",

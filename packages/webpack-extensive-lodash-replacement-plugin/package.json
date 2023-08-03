@@ -26,6 +26,6 @@
 		"semver": "^7.0.0"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^"
+		"@automattic/calypso-typescript-config": "workspace:*"
 	}
 }

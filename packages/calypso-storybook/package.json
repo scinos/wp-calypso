@@ -20,12 +20,12 @@
 	},
 	"bugs": "https://github.com/Automattic/wp-calypso/issues",
 	"devDependencies": {
-		"@automattic/calypso-eslint-overrides": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-eslint-overrides": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"@storybook/addon-viewport": "^7.0.18"
 	},
 	"dependencies": {
-		"@automattic/calypso-babel-config": "workspace:^",
+		"@automattic/calypso-babel-config": "workspace:*",
 		"@storybook/addon-actions": "^7.0.18",
 		"@storybook/addon-controls": "^7.0.18",
 		"@storybook/preset-scss": "^1.0.3",

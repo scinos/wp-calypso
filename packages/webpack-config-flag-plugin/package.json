@@ -21,7 +21,7 @@
 		"access": "public"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"rimraf": "^3.0.2"
 	}
 }

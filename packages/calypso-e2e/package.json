@@ -28,9 +28,9 @@
 		"totp-generator": "^0.0.12"
 	},
 	"devDependencies": {
-		"@automattic/calypso-eslint-overrides": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
-		"@automattic/languages": "workspace:^",
+		"@automattic/calypso-eslint-overrides": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
+		"@automattic/languages": "workspace:*",
 		"@jest/globals": "^29.5.0",
 		"@types/node": "^18.11.18",
 		"@types/node-fetch": "^2.6.1",

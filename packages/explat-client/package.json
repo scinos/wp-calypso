@@ -28,8 +28,8 @@
 		"tslib": "^2.3.0"
 	},
 	"devDependencies": {
-		"@automattic/calypso-polyfills": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-polyfills": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"typescript": "^4.7.4"
 	}
 }

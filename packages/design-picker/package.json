@@ -29,12 +29,12 @@
 		"watch": "tsc --build ./tsconfig.json --watch"
 	},
 	"dependencies": {
-		"@automattic/calypso-config": "workspace:^",
-		"@automattic/components": "workspace:^",
-		"@automattic/data-stores": "workspace:^",
-		"@automattic/js-utils": "workspace:^",
-		"@automattic/onboarding": "workspace:^",
-		"@automattic/typography": "workspace:^",
+		"@automattic/calypso-config": "workspace:*",
+		"@automattic/components": "workspace:*",
+		"@automattic/data-stores": "workspace:*",
+		"@automattic/js-utils": "workspace:*",
+		"@automattic/onboarding": "workspace:*",
+		"@automattic/typography": "workspace:*",
 		"@tanstack/react-query": "^4.29.1",
 		"@wordpress/components": "^23.0.0",
 		"@wordpress/react-i18n": "^3.21.0",
@@ -45,9 +45,9 @@
 		"utility-types": "^3.10.0"
 	},
 	"devDependencies": {
-		"@automattic/calypso-build": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
-		"@automattic/data-stores": "workspace:^",
+		"@automattic/calypso-build": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
+		"@automattic/data-stores": "workspace:*",
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^14.0.0",
 		"jest": "^29.6.1",

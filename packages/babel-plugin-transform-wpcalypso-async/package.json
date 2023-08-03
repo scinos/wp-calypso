@@ -15,7 +15,7 @@
 		"lodash": "^4.17.21"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"@babel/core": "^7.17.5"
 	},
 	"publishConfig": {

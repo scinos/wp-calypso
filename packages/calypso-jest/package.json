@@ -27,8 +27,8 @@
 		"jest-config": "^29.6.1"
 	},
 	"devDependencies": {
-		"@automattic/calypso-eslint-overrides": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^"
+		"@automattic/calypso-eslint-overrides": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*"
 	},
 	"peerDependencies": {
 		"react": "^18",

@@ -49,8 +49,8 @@
 		"tslib": "^2.3.0"
 	},
 	"devDependencies": {
-		"@automattic/calypso-build": "workspace:^",
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-build": "workspace:*",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^14.0.0",
 		"@types/wordpress__components": "^23.0.1",

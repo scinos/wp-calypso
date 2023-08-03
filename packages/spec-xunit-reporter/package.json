@@ -17,6 +17,6 @@
 		"mocha": "^5.2.0"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^"
+		"@automattic/calypso-typescript-config": "workspace:*"
 	}
 }

@@ -30,7 +30,7 @@
 		"watch": "tsc --build ./tsconfig.json --watch"
 	},
 	"dependencies": {
-		"@automattic/load-script": "workspace:^",
+		"@automattic/load-script": "workspace:*",
 		"cookie": "^0.4.1",
 		"debug": "^4.3.3",
 		"hash.js": "^1.1.7",
@@ -38,7 +38,7 @@
 		"uuid": "^8.3.2"
 	},
 	"devDependencies": {
-		"@automattic/calypso-typescript-config": "workspace:^",
+		"@automattic/calypso-typescript-config": "workspace:*",
 		"typescript": "^4.7.4"
 	}
 }
