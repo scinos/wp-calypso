@@ -23,7 +23,7 @@
 	},
 	"scripts": {
 		"clean": "rm -rf js css root-only src/__color-studio",
-		"prepare": "node bin/prepare-sass-assets.js && node bin/build-css.js"
+		"xprepare": "node bin/prepare-sass-assets.js && node bin/build-css.js"
 	},
 	"devDependencies": {
 		"@automattic/calypso-eslint-overrides": "workspace:*",

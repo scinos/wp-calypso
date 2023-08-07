@@ -100,7 +100,7 @@
 		"lint:js": "eslint --ext .js,.jsx,.ts,.tsx,.mjs,.json --cache .",
 		"lint:mixedindent": "mixedindentlint --ignore-comments \"client/**/*.scss\" \"assets/**/*.scss\" \"**/*.js\" \"**/*.jsx\" \"**/*.tsx\" \"**/*.tsx\" \"!build/**\" \"!node_modules/**\" \"!public/**\" \"!client/config/index.js\"",
 		"postcss": "postcss -r --config packages/calypso-build/postcss.config.js",
-		"postinstall": "husky install",
+		"xpostinstall": "husky install",
 		"reformat-files": "./node_modules/.bin/prettier --ignore-path .eslintignore --write \"**/*.{js,jsx,json,ts,tsx}\"",
 		"search:storybook:start": "echo 'Deprecated, run `yarn workspace @automattic/search run storybook` instead'",
 		"start": "npx check-node-version --package && node bin/welcome.js && yarn run build && yarn run start-build",
@@ -298,19 +298,5 @@
 		"@react-spring/core@9.3.0": {
 			"built": false
 		}
-	},
-	"xtrustedDependencies": [
-		"dtrace-provider",
-		"core-js-pure",
-		"core-js",
-		"swiper",
-		"playwright",
-		"core-js-bundle",
-		"electron",
-		"keytar",
-		"esbuild",
-		"@sentry/cli",
-		"es5-ext",
-		"@automattic/newspack-blocks"
-	]
+	}
 }
